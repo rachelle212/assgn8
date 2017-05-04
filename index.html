@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <!--import proper Javascript and CSS files -->
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/css/materialize.min.css">
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/js/materialize.min.js"></script>
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <!-- SAMPLE PICS FOR YOUR BG-->
+    <script>
+        function myFunction(id) {
+            var x = document.getElementById(id);
+            if (x.className.indexOf("w3-show") == -1) {
+                x.className += " w3-show";
+            } else {
+                x.className = x.className.replace(" w3-show", "");
+            }
+        }
+    </script>
+
+
+</head>
+<body>
+<nav>
+    <div class="nav-wrapper w3-pink" style="background-color:d";>
+        <a href="#" class="brand-logo center amber-text">You Are Invited!</a>
+        <ul id="nav-mobile" class="left hide-on-med-and-down">
+            <li><a href="https://www.facebook.com/taylor.sain">Facebook</a></li>
+            <li><a href="https://www.facebook.com/taylor.sain/about?lst=1343965076%3A1343965076%3A1493327533">Birthday</a></li>
+            <li><a href="https://www.yelp.com/search?find_desc=Birthday+Ideas+For+Adults&find_loc=Atlanta%2C+GA">Celebration</a></li>
+        </ul>
+    </div>
+</nav>
+
+<div class="row w3-amber">
+    <div class="col s12 m7 w3-purple">
+        <div class="card w3-amber">
+            <div class="card-image">
+                <img src="http://media.karaspartyideas.com/media/uploads/2015/02/Pink-Gold-Princess-1st-Birthday-Party-via-Karas-Party-Ideas-KarasPartyIdeas.com-The-Place-for-ALL-THINGS-PARTY25.jpg">
+                <span class="card-title purple-text">Raylynn's 10 Birthday Bash </span>
+            </div>
+            <div class="card-content w3-amber">
+
+                <button onclick="myFunction('Demo1')" class="w3-button w3-block w3-purple w3-left-align">Click Here For The Details!</button>
+                <div id="Demo1" class="w3-hide w3-animate-zoom">
+                    <p class="w3-button w3-block w3-left-align">When: May 10th 2017 @ 2:00pm</p>
+                    <p class="w3-button w3-block w3-left-align">Where: Disneyland, Orlando, Florida</p>
+                    <p class="w3-button w3-block w3-left-align">What to Bring: Smile, Fun, and Giggles!</p>
+                    <button class="w3-button w3-green w3-center">Accept</button>
+                    <button class="w3-button w3-red w3-center">Decline</button>
+                </div>
+
+            </div>
+
+            <br><br>
+        </div>
+    </div>
+</div>
+<footer class="page-footer darken-20 w3-pink"style="background-color: darkblue;">
+    <div class="container">
+        <div class="row">
+            <div class="col l6 s12">
+                <h5 class="purple-text">Parent Info: <br> Name: Jessica Pittman <br> Phone: 612-883-0923</h5>
+            </div>
+            <div class="col l4 offset-l2 s12 purple-text">
+                <a class="waves-effect waves-light btn purple-text w3-amber" style="background-color:gold";>More Details</a>
+                <p><i class="small material-icons">email</i></p>
+                <p>Please email me at preciouskemp@hotmail.com</p>
+            </div>
+        </div>
+    </div>
+    <div class="footer-copyright">
+        <div class="container purple-text">
+            © 2017 Copyright Text
+        </div>
+    </div>
+</footer>
+</div>
+
+</body>
+</html>
+
